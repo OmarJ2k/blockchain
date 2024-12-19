@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter Vehicule</title>
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+<body>
+    <h1>Ajouter un nouveau vehicule</h1>
+    <form id="vehicleForm">
+        <label for="vin">VIN:</label>
+        <input type="text" id="vin" name="vin" required><br><br>
+
+        <label for="details">Details:</label>
+        <input type="text" id="details" name="details" required><br><br>
+
+        <input type="submit" value="Ajouter">
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <script src="js/contract.js"></script>
+    <script src="js/addVehicle.js"></script>
+</body>
+</html>
